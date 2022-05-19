@@ -1,0 +1,63 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.plcoding.jetpackcomposepokedex"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:5:5-23:19
+12        android:allowBackup="true"
+12-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0-beta01] /Users/yuvaraj-pt4283/.gradle/caches/transforms-3/c616f71e87178bdfca1bc0421ce04610/transformed/core-1.5.0-beta01/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.JetpackComposePokedex" >
+20-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:11:9-59
+21        <activity
+21-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:12:9-22:20
+22            android:name="com.plcoding.jetpackcomposepokedex.MainActivity"
+22-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:13:13-41
+23            android:exported="true"
+23-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:14:13-36
+24            android:label="@string/app_name"
+24-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:15:13-45
+25            android:theme="@style/Theme.JetpackComposePokedex.NoActionBar" >
+25-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:16:13-75
+26            <intent-filter>
+26-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:18:17-69
+27-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:20:17-77
+29-->/Users/yuvaraj-pt4283/AndroidStudioProjects/Pokedex/app/src/main/AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->[androidx.compose.ui:ui-tooling:1.0.0-beta01] /Users/yuvaraj-pt4283/.gradle/caches/transforms-3/d78072bd8b6fa33e21ed9e8b5fa4f065/transformed/jetified-ui-tooling-1.0.0-beta01/AndroidManifest.xml:25:9-27:39
+33            android:name="androidx.compose.ui.tooling.preview.PreviewActivity"
+33-->[androidx.compose.ui:ui-tooling:1.0.0-beta01] /Users/yuvaraj-pt4283/.gradle/caches/transforms-3/d78072bd8b6fa33e21ed9e8b5fa4f065/transformed/jetified-ui-tooling-1.0.0-beta01/AndroidManifest.xml:26:13-79
+34            android:exported="true" />
+34-->[androidx.compose.ui:ui-tooling:1.0.0-beta01] /Users/yuvaraj-pt4283/.gradle/caches/transforms-3/d78072bd8b6fa33e21ed9e8b5fa4f065/transformed/jetified-ui-tooling-1.0.0-beta01/AndroidManifest.xml:27:13-36
+35        <activity android:name="androidx.compose.ui.tooling.data.TestActivity" />
+35-->[androidx.compose.ui:ui-tooling-data:1.0.0-beta01] /Users/yuvaraj-pt4283/.gradle/caches/transforms-3/998d32387f7e3ec6ec6d236e94c25090/transformed/jetified-ui-tooling-data-1.0.0-beta01/AndroidManifest.xml:25:9-82
+35-->[androidx.compose.ui:ui-tooling-data:1.0.0-beta01] /Users/yuvaraj-pt4283/.gradle/caches/transforms-3/998d32387f7e3ec6ec6d236e94c25090/transformed/jetified-ui-tooling-data-1.0.0-beta01/AndroidManifest.xml:25:19-79
+36    </application>
+37
+38</manifest>

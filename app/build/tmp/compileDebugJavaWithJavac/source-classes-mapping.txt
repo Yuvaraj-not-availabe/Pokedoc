@@ -1,0 +1,2 @@
+com/plcoding/jetpackcomposepokedex/BuildConfig.java
+ com.plcoding.jetpackcomposepokedex.BuildConfig
